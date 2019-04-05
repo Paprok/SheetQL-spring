@@ -1,0 +1,25 @@
+.logo-container {
+    padding-left: 40px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logout-text, .fas {
+    font-size: 25px;
+    color: white;
+}
+
+.input-group {
+    width: 60vw !important;
+}
+
+.form-control {
+    width: 50vw !important;
+}
+
+.query-information {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
