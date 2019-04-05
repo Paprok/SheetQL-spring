@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("../images/index-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main {
+    text-align: center;
+    margin-top: 145px;
+    height: 4200px;
+}
+
+.login {
+    padding: 20px;
+    height: 420px;
+
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.login-text {
+    padding-top: 45px;
+}
+.form {
+    padding-top: 20px;
+}
+.login-button-text {
+    padding-left: 10px;
+}
+
+.login-text {
+    font-weight: bold;
+    font-size: 25px;
+}
