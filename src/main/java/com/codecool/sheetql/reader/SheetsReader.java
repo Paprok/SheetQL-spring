@@ -1,5 +1,6 @@
-package com.codecool.sheetql;
+package com.codecool.sheetql.reader;
 
+import com.codecool.sheetql.SheetqlApplication;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
 import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
@@ -22,8 +23,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class SheetsReader {
-
-
     private String APPLICATION_NAME;
     private JsonFactory JSON_FACTORY;
     private String TOKENS_DIRECTORY_PATH;
@@ -35,7 +34,7 @@ public class SheetsReader {
     private List<String> SCOPES;
     private String CREDENTIALS_FILE_PATH;
 
-    SheetsReader() {
+    public SheetsReader() {
         APPLICATION_NAME = "Google Sheets API Java Quickstart";
         JSON_FACTORY =  JacksonFactory.getDefaultInstance();
         TOKENS_DIRECTORY_PATH = "tokens";
