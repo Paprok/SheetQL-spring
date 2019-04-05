@@ -21,5 +21,13 @@
 
 .query-information {
     font-size: 20px;
-    padding-bottom: 10px;
+
 }
+.my-custom-scrollbar {
+    position: relative;
+    height: 75vh;
+    overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+    display: block;
+  }
